@@ -41,7 +41,7 @@ export default function FAQ() {
             <AccordionItem value="item-5">
                 <AccordionTrigger className="text-left"> How long are tutoring sessions? </AccordionTrigger>
                 <AccordionContent>
-                    Tutoring sessions are typically one hour long. However, the length of the session can vary depending on the student's needs and availability. 
+                    Tutoring sessions are typically one hour long. However, the length of the session can vary depending on the student&apos;s needs and availability. 
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-6">
