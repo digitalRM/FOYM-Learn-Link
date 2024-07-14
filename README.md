@@ -3,7 +3,8 @@
 
 Template Series - Learn Link #5
 ---
-his is a template for organizations modeled after a made-up tutoring nonprofit called “Learn Link.” It is entirely free to use and customize. Created by FOYM, a project by Ruslan Mukhamedvaleev, under the MIT license.
+
+This is a template for organizations modeled after a made-up tutoring nonprofit called “Learn Link.” It is entirely free to use and customize. Created by FOYM, a project by Ruslan Mukhamedvaleev, under the MIT license.
 
 ![Website Image](https://github.com/user-attachments/assets/69274ba4-70ff-4929-ad16-975eb544acd2)
 
