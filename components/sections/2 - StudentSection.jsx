@@ -15,7 +15,7 @@ export default function StudnetSection() {
           
         </div>
 
-        <div className='relative'>
+        <div className='relative p-4 lg:p-0'>
           <StudentChart className="lg:absolute z-10 lg:ml-14 scale-105" />
           <StudentChart className="absolute translate-x-12 opacity-80  rotate-3 hidden lg:block " />
         </div>

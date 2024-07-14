@@ -32,13 +32,13 @@ export function ContactDialog({...props}) {
   if (isDesktop) {
     return (
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogTrigger className="tracking-tight text-neutral-600 font-medium cursor-pointer" {...props}> 
-          Contact
+        <DialogTrigger className="tracking-tight text-neutral-700 font-medium cursor-pointer" {...props}> 
+          Contact 
         </DialogTrigger>
         <DialogContent className="sm:max-w-[1055px] w-full bg-white">
           <DialogHeader>
             <DialogTitle>
-              <span className="text-xl font-semibold text-black">
+              <span className="text-xl md:text-2xl lg:text-3xl font-semibold text-indigo-700 tracking-tighter">
                 Contact Us
               </span>
             </DialogTitle>
@@ -56,7 +56,7 @@ export function ContactDialog({...props}) {
             <div className="sm:col-span-2">
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-black"
+                className="block text-sm font-medium text-indigo-950"
               >
                 Name
               </label>
@@ -65,14 +65,14 @@ export function ContactDialog({...props}) {
                   type="text"
                   id="name"
                   autoComplete="name"
-                  className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-neutral-600 bg-neutral-100 rounded-md h-12 p-4"
+                  className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-indigo-600 bg-neutral-100 rounded-md h-12 p-4"
                 />
               </div>
             </div>
             <div className="sm:col-span-2">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-yellow-950"
+                className="block text-sm font-medium text-indigo-950"
               >
                 Email
               </label>
@@ -81,14 +81,14 @@ export function ContactDialog({...props}) {
                   id="email"
                   type="email"
                   autoComplete="email"
-                  className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-neutral-600 bg-neutral-100 rounded-md h-12 p-4"
+                  className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-indigo-600 bg-neutral-100 rounded-md h-12 p-4"
                 />
               </div>
             </div>
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-yellow-950"
+                className="block text-sm font-medium text-indigo-950"
               >
                 Message
               </label>
@@ -96,7 +96,7 @@ export function ContactDialog({...props}) {
                 <textarea
                   id="message"
                   rows={4}
-                  className="block max-h-36 w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-neutral-600 bg-neutral-100 rounded-md p-4"
+                  className="block max-h-36 w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-indigo-600 bg-neutral-100 rounded-md p-4"
                   defaultValue={""}
                 />
               </div>
@@ -104,7 +104,7 @@ export function ContactDialog({...props}) {
             <div className="sm:col-span-2 sm:flex sm:justify-end">
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-neutral-600 hover:bg-neutral-600/80 focus:outline-none focus:ring-2  transition-all focus:ring-offset-2 focus:ring-neutral-700"
+                className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-600/80 focus:outline-none focus:ring-2  transition-all focus:ring-offset-2 focus:ring-indigo-700"
               >
                 Send
               </button>
@@ -117,7 +117,7 @@ export function ContactDialog({...props}) {
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger
-        className="tracking-tight text-neutral-600 font-medium cursor-pointer" {...props}
+        className="tracking-tight text-neutral-700 font-medium cursor-pointer" {...props}
       >
         Contact
       </DrawerTrigger>
@@ -151,14 +151,14 @@ export function ContactDialog({...props}) {
                 type="text"
                 id="name"
                 autoComplete="name"
-                className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-neutral-600 bg-neutral-100 rounded-md h-12 p-4"
+                className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-indigo-600 bg-neutral-100 rounded-md h-12 p-4"
               />
             </div>
           </div>
           <div className="sm:col-span-2">
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-yellow-950"
+              className="block text-sm font-medium text-indigo-950"
             >
               Email
             </label>
@@ -167,14 +167,14 @@ export function ContactDialog({...props}) {
                 id="email"
                 type="email"
                 autoComplete="email"
-                className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-neutral-600 bg-neutral-100 rounded-md h-12 p-4"
+                className="block w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-indigo-600 bg-neutral-100 rounded-md h-12 p-4"
               />
             </div>
           </div>
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block text-sm font-medium text-yellow-950"
+              className="block text-sm font-medium text-indigo-950"
             >
               Message
             </label>
@@ -182,7 +182,7 @@ export function ContactDialog({...props}) {
               <textarea
                 id="message"
                 rows={4}
-                className="block max-h-36 w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-neutral-600 bg-neutral-100 rounded-md p-4"
+                className="block max-h-36 w-full focus:outline-none shadow-sm focus:ring-2 sm:text-sm focus:ring-indigo-600 bg-neutral-100 rounded-md p-4"
                 defaultValue={""}
               />
             </div>
@@ -190,7 +190,7 @@ export function ContactDialog({...props}) {
           <div className="sm:col-span-2 sm:flex sm:justify-end">
             <button
               type="submit"
-              className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-neutral-600 hover:bg-neutral-600/80 focus:outline-none focus:ring-2  transition-all focus:ring-offset-2 focus:ring-neutral-700"
+              className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-600/80 focus:outline-none focus:ring-2  transition-all focus:ring-offset-2 focus:ring-indigo-700"
             >
               Send
             </button>
