@@ -60,7 +60,7 @@ export function StudentChart({...props}) {
       </CardContent>
       <CardFooter className="flex-col items-start gap-2 text-sm">
         <div className="leading-none text-muted-foreground">
-          Showing student Alica G's growth over the past 4 months
+          Showing student Alica G&apos;s growth over the past 4 months
         </div>
       </CardFooter>
     </Card>
