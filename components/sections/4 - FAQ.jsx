@@ -11,7 +11,7 @@ export default function FAQ() {
     <div className="relative bg-indigo-900 text-white w-full pb-14">
       <div className="mx-auto max-w-[1140px] px-6 py-20 lg:py-32 lg:px-8 relative grid gap-12 -mb-12">
         <div className="flex flex-col gap-6 w-full">
-          <h1 className="text-xl sm:text-2xl lg:text-4xl xl:text-5xl font-bold text-white tracking-tighter text-left">Frequently Asked Questions.</h1>
+          <h2 className="text-xl sm:text-2xl lg:text-4xl xl:text-5xl font-bold text-white tracking-tighter text-left">Frequently Asked Questions.</h2>
           <p className="text-lg mt-4 tracking-tight text-neutral-200 text-left max-w-[850px]">Here are some of the most frequently asked questions about our tutoring services. If you have a question that is not answered here, please feel free to reach out to us via the contact form on this website.</p>
           <Accordion type="single" collapsible className="w-full text-left">
             <AccordionItem value="item-1">

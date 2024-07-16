@@ -12,7 +12,7 @@ export default function Hero() {
   
   return (
     <div className="relative overflow-hidden">
-      <div className="mx-auto h-[1000px] overflow-hidden p-4 md:px-6 pt-6 lg:pt-10 lg:px-8 py-32 relative">
+      <div className="mx-auto h-[1020px] overflow-hidden p-4 md:px-6 pt-6 lg:pt-14 lg:px-8 py-32 relative">
         <Header />
         <div className="grid lg:grid-cols-2 gap-8 lg:justify-between mt-36 lg:mt-56 z-10 relative max-w-[1040px] mx-auto w-full">
           <div className="flex flex-col justify-start items-start">

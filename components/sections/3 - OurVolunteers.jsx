@@ -1,13 +1,14 @@
 import React from 'react'
 import { StudentChart } from '../ui/1 - studentChart'
+import Image from 'next/image'
 
 export default function OurVolunteers() {
   return (
     <div className="relative overflow-hidden bg-white text-white w-full pb-14">
       <div className=" flex flex-col-reverse mx-auto max-w-[1140px] px-6 py-20 lg:py-32 lg:px-8 relative lg:grid lg:grid-cols-2 gap-12 -mb-12">
         <div className='relative p-4 lg:p-0 lg:mr-4'>
-          <img src="https://images.unsplash.com/photo-1584697964358-3e14ca57658b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Unsplash image by Annie Spratt | A student siting in front of a laptop, excited about learning" className="mt-6 rounded-2xl lg:-rotate-6 hidden lg:flex lg:absolute lg:opacity-20" />
-          <img src="https://images.unsplash.com/photo-1584697964358-3e14ca57658b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Unsplash image by Annie Spratt | A student siting in front of a laptop, excited about learning" className="mt-6 rounded-2xl lg:absolute" />
+          <Image src="https://images.unsplash.com/photo-1584697964358-3e14ca57658b" width={498} height={332} alt="Unsplash image by Annie Spratt | A student siting in front of a laptop, excited about learning" className="mt-6 rounded-2xl lg:-rotate-6 hidden lg:flex lg:absolute lg:opacity-20" />
+          <Image src="https://images.unsplash.com/photo-1584697964358-3e14ca57658b" width={498} height={332} alt="Unsplash image by Annie Spratt | A student siting in front of a laptop, excited about learning" className="mt-6 rounded-2xl lg:absolute" />
         </div>
         <div className="flex flex-col gap-6">
           <div>
